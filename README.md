@@ -34,4 +34,9 @@
 ![Image alt](https://github.com/Fomka27/DevOps/blob/lecture3/Screenshot_25.jpg)
 ![Image alt](https://github.com/Fomka27/DevOps/blob/lecture3/Screenshot_26.jpg)
 
+<<<<<<< HEAD
 Видаляти машину не буду, залишу для тестів)))
+=======
+Видаляти машину не буду, залишу для тестів)))
+
+>>>>>>> 564b1dc8b11a637a60bd5582e5560989ec54a4f7
