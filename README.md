@@ -5,10 +5,10 @@
 ![Image alt](https://github.com/Fomka27/DevOps/blob/lecture3/Screenshot_3.jpg)
 ![Image alt](https://github.com/Fomka27/DevOps/blob/lecture3/Screenshot_4.jpg)
 ![Image alt](https://github.com/Fomka27/DevOps/blob/lecture3/Screenshot_5.jpg)
-![Image alt](https://github.com/Fomka27/DevOps/blob/lecture3/Screenshot_6.jpg)
 2) Під'єднав iso образ Ubuntu 22.04.4
-![Image alt](https://github.com/Fomka27/DevOps/blob/lecture3/Screenshot_7.jpg)
+![Image alt](https://github.com/Fomka27/DevOps/blob/lecture3/Screenshot_6.jpg)
 3) Встановив систему
+![Image alt](https://github.com/Fomka27/DevOps/blob/lecture3/Screenshot_7.jpg)
 ![Image alt](https://github.com/Fomka27/DevOps/blob/lecture3/Screenshot_8.jpg)
 4) Далі налаштував систему під себе(базаове налаштування)(встановив необхідні програми, midnite commander, net-tools, дату та час синхронізував)
 ![Image alt](https://github.com/Fomka27/DevOps/blob/lecture3/Screenshot_9.jpg)
