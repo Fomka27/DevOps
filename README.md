@@ -7,3 +7,4 @@
 Зробив resize диску на 30ГБ скриншот 22-24
 Зробив збільшення 4 RAM 4 CPU скриншоти 25-26
 Видаляти машину не буду, залишу для тестів)))
+![Image alt](https://github.com/Fomka27/DevOps/blob/lecture3/Screenshot_1.jpg)
