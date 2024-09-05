@@ -30,7 +30,7 @@
 ![Image alt](https://github.com/Fomka27/DevOps/blob/lecture3/Screenshot_22.jpg)
 ![Image alt](https://github.com/Fomka27/DevOps/blob/lecture3/Screenshot_23.jpg)
 ![Image alt](https://github.com/Fomka27/DevOps/blob/lecture3/Screenshot_24.jpg)
-8) Зробив збільшення 4 RAM 4 CPU
+9) Зробив збільшення 4 RAM 4 CPU
 ![Image alt](https://github.com/Fomka27/DevOps/blob/lecture3/Screenshot_25.jpg)
 ![Image alt](https://github.com/Fomka27/DevOps/blob/lecture3/Screenshot_26.jpg)
 
