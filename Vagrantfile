@@ -1,18 +1,20 @@
 Vagrant.configure("2") do |config|
+  MEMORY = 1024
+  CPUS = 1
   config.vm.define "VM1" do |vm|
     vm.vm.box = "bento/ubuntu-24.04"
-    vm.vm.network "public_network", type: "dhcp", name: "vboxnet3" 
+    vm.vm.network "public_network", type: "dhcp"
     vm.vm.network "forwarded_port", guest: 80, host: 8080
     vm.vm.synced_folder "./shared", "/vagrant_share"
     vm.vm.hostname = "webserver"
     vm.vm.provider "virtualbox" do |vi|
-      vi.memory = 1024
-      vi.cpus = 1
-    end
+      vi.memory = MEMORY
+      vi.cpus = CPUS
     vm.vm.provision "shell", inline: <<-SHELL
       apt update
       apt install -y nginx
     SHELL
+    end
   end
   config.vm.define "VM2" do |vm|
     vm.vm.box = "bento/ubuntu-24.04"
@@ -20,8 +22,8 @@ Vagrant.configure("2") do |config|
     vm.vm.synced_folder "./shared", "/vagrant_share"
     vm.vm.hostname = "server1"
     vm.vm.provider "virtualbox" do |vi|
-      vi.memory = 1024
-      vi.cpus = 1
+      vi.memory = MEMORY
+      vi.cpus = CPUS
     vm.vm.provision "shell", path: "./shared/script.sh"
     end
   end
@@ -31,8 +33,8 @@ Vagrant.configure("2") do |config|
     vm.vm.synced_folder "./backup", "/Backup"
     vm.vm.hostname = "server2"
     vm.vm.provider "virtualbox" do |vi|
-      vi.memory = 1024
-      vi.cpus = 1
+      vi.memory = MEMORY
+      vi.cpus = CPUS
     end
   end
 end
