@@ -10,3 +10,4 @@
 ![Image alt](https://github.com/Fomka27/DevOps/blob/lecture4/pic/Screenshot_3.jpg)
 ![Image alt](https://github.com/Fomka27/DevOps/blob/lecture4/pic/Screenshot_5.jpg)
 ![Image alt](https://github.com/Fomka27/DevOps/blob/lecture4/pic/Screenshot_6.jpg)
+![Image alt](https://github.com/Fomka27/DevOps/blob/lecture4/pic/Screenshot_9.jpg)
