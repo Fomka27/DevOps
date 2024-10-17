@@ -1,0 +1,26 @@
+[
+  {
+    _id: ObjectId('6710c1638fb35e5a0afe6914'),
+    membership_id: 101,
+    client_id: 1,
+    start_date: ISODate('2024-01-01T00:00:00.000Z'),
+    end_date: ISODate('2024-12-31T00:00:00.000Z'),
+    type: 'Annual'
+  },
+  {
+    _id: ObjectId('6710c1638fb35e5a0afe6915'),
+    membership_id: 102,
+    client_id: 2,
+    start_date: ISODate('2024-06-01T00:00:00.000Z'),
+    end_date: ISODate('2024-12-31T00:00:00.000Z'),
+    type: 'Half-Year'
+  },
+  {
+    _id: ObjectId('6710c1638fb35e5a0afe6916'),
+    membership_id: 103,
+    client_id: 3,
+    start_date: ISODate('2024-03-01T00:00:00.000Z'),
+    end_date: ISODate('2025-03-01T00:00:00.000Z'),
+    type: 'Annual'
+  }
+]

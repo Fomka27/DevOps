@@ -1,0 +1,20 @@
+[
+  {
+    _id: ObjectId('6710c16d8fb35e5a0afe6917'),
+    workout_id: 201,
+    description: 'Cardio Training',
+    difficulty: 'Medium'
+  },
+  {
+    _id: ObjectId('6710c16d8fb35e5a0afe6918'),
+    workout_id: 202,
+    description: 'Strength Training',
+    difficulty: 'Hard'
+  },
+  {
+    _id: ObjectId('6710c16d8fb35e5a0afe6919'),
+    workout_id: 203,
+    description: 'Yoga',
+    difficulty: 'Easy'
+  }
+]

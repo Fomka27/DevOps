@@ -1,0 +1,23 @@
+[
+  {
+    _id: ObjectId('6710c1588fb35e5a0afe6911'),
+    client_id: 1,
+    name: 'Ivan Fomenov',
+    age: 35,
+    email: 'ivan@example.com'
+  },
+  {
+    _id: ObjectId('6710c1588fb35e5a0afe6912'),
+    client_id: 2,
+    name: 'Oleh Pupkin',
+    age: 28,
+    email: 'oleh@example.com'
+  },
+  {
+    _id: ObjectId('6710c1588fb35e5a0afe6913'),
+    client_id: 3,
+    name: 'Taras Shevchenko',
+    age: 32,
+    email: 'taras@example.com'
+  }
+]

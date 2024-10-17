@@ -1,0 +1,20 @@
+[
+  {
+    _id: ObjectId('6710c1758fb35e5a0afe691a'),
+    trainer_id: 301,
+    name: 'Alexei Sidorov',
+    specialization: 'Strength Training'
+  },
+  {
+    _id: ObjectId('6710c1758fb35e5a0afe691b'),
+    trainer_id: 302,
+    name: 'Elena Kravtsova',
+    specialization: 'Yoga'
+  },
+  {
+    _id: ObjectId('6710c1758fb35e5a0afe691c'),
+    trainer_id: 303,
+    name: 'Maxim Kovalenko',
+    specialization: 'Cardio Training'
+  }
+]

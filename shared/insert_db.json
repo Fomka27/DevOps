@@ -1,0 +1,23 @@
+db.clients.insertMany([
+    { client_id: 1, name: "Ivan Fomenov", age: 35, email: "ivan@example.com" },
+    { client_id: 2, name: "Oleh Pupkin", age: 28, email: "oleh@example.com" },
+    { client_id: 3, name: "Taras Shevchenko", age: 32, email: "taras@example.com" }
+  ])
+  
+  db.memberships.insertMany([
+    { membership_id: 101, client_id: 1, start_date: new Date("2024-01-01"), end_date: new Date("2024-12-31"), type: "Annual" },
+    { membership_id: 102, client_id: 2, start_date: new Date("2024-06-01"), end_date: new Date("2024-12-31"), type: "Half-Year" },
+    { membership_id: 103, client_id: 3, start_date: new Date("2024-03-01"), end_date: new Date("2025-03-01"), type: "Annual" }
+  ])
+  
+  db.workouts.insertMany([
+    { workout_id: 201, description: "Cardio Training", difficulty: "Medium" },
+    { workout_id: 202, description: "Strength Training", difficulty: "Hard" },
+    { workout_id: 203, description: "Yoga", difficulty: "Easy" }
+  ])
+  
+  db.trainers.insertMany([
+    { trainer_id: 301, name: "Alexei Sidorov", specialization: "Strength Training" },
+    { trainer_id: 302, name: "Elena Kravtsova", specialization: "Yoga" },
+    { trainer_id: 303, name: "Maxim Kovalenko", specialization: "Cardio Training" }
+  ])
