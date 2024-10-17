@@ -13,10 +13,10 @@
 Показати інформацію про членство клієнта з певним client_id команда db.memberships.find({ client_id: 1 })
 ![Image alt](https://github.com/Fomka27/DevOps/raw/lecture14/pic/Screenshot_5.jpg)
 
-Зробив запит всіх клієнтів команда db.clients.find({})
+Зробив запит всіх клієнтів команда db.clients.find({}).
 ![Image alt](https://github.com/Fomka27/DevOps/raw/lecture14/pic/Screenshot_6.jpg)
 
-Запит всіх тренерів команда db.trainers.find({})
+Запит всіх тренерів команда db.trainers.find({}).
 ![Image alt](https://github.com/Fomka27/DevOps/raw/lecture14/pic/Screenshot_7.jpg)
 
 У файлі insert_db.txt помістив те що додавав в колекції.
