@@ -1,4 +1,5 @@
 Використував AWS CLI і eksctl, встановивши його на свій ПК
+
 Створив кластер EKS,з двох воркер-нод (Node Groups) у публічній підмережі, застосував t3.medium
 ![Image alt](https://github.com/Fomka27/DevOps/raw/lecture25/pic/Screenshot_1.jpg)
 
