@@ -7,9 +7,10 @@ DB_PASSWORD="StrongPassword123"
 DB_CLASS="db.t3.micro"
 ALLOCATED_STORAGE=20
 ENGINE="mysql"
-ENGINE_VERSION="8.0.30"
+ENGINE_VERSION="8.0.40"
 SECURITY_GROUP_NAME="library-db-sg"
 BACKUP_RETENTION=7
+DB_NAME="library"
 
 # Отримати IP
 MY_IP=$(curl -s ifconfig.me)
@@ -39,8 +40,7 @@ aws rds create-db-instance \
     --vpc-security-group-ids $SECURITY_GROUP_ID \
     --publicly-accessible \
     --storage-type gp2 \
-    --engine-version $ENGINE_VERSION \
-    --availability-zone eu-central-1
+    --engine-version $ENGINE_VERSION 
 
 # Перевірка статусу
 echo "Очікування створення RDS інстансу..."
@@ -53,3 +53,9 @@ RDS_ENDPOINT=$(aws rds describe-db-instances \
     --output text)
 
 echo "RDS інстанс створено. Підключення: $RDS_ENDPOINT"
+
+# Підключення до MySQL бази даних
+echo "Підключення до бази даних"
+
+# Підключення до бази даних
+mysql -h $RDS_ENDPOINT -u $DB_USERNAME -p$DB_PASSWORD
