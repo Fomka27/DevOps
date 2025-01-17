@@ -1,0 +1,17 @@
+---
+- name: Install Firewall
+  apt:
+    name: ufw
+    state: present
+
+- name: Configure base rules
+  ufw:
+    rule: allow
+    port: "{{ item }}"
+    proto: tcp
+  loop: "{{ allowed_ports }}"
+
+- name: Start Firewall
+  ufw:
+    state: enabled
+  

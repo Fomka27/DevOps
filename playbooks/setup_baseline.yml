@@ -1,0 +1,10 @@
+---
+- name: Configure Baseline
+  hosts: Role_Base
+  become: true
+  roles:
+    - baseline
+    - firewall
+  vars_files:
+    - roles/baseline/vars/main.yml
+    - roles/firewall/vars/main.yml

@@ -1,0 +1,25 @@
+---
+- name: Create user "{{ username }}"
+  ansible.builtin.user:
+    name: "{{ username }}"
+    state: present
+    shell: /bin/bash
+    groups: admin
+
+- name: Add key "{{ username }}"
+  ansible.builtin.authorized_key:
+    user: "{{ username }}"
+    state: present
+    key: "{{ lookup('file', './files/id_rsa.pub') }}"
+
+- name: Install pakages
+  apt:
+    name: "{{ item }}"
+    state: present
+    update_cache: yes
+  loop:
+    - vim
+    - git
+    - mc
+    - ufw
+    - net-tools
