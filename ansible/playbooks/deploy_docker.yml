@@ -1,0 +1,6 @@
+---
+- name: Setup Docker, Docker Compose
+  hosts: role_monitoring
+  become: yes
+  roles:
+    - roles/docker

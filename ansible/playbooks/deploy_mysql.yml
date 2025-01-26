@@ -1,0 +1,6 @@
+---
+- name: Setup Mysql and Node Exporter
+  hosts: role_mysql
+  become: yes
+  roles:
+    - roles/mysql

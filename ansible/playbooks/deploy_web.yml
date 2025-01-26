@@ -1,0 +1,6 @@
+---
+- name: Setup Nginx and Node Exporter
+  hosts: role_web
+  become: yes
+  roles:
+    - roles/web
