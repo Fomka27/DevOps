@@ -1,0 +1,28 @@
+---
+- name: Update apt cache
+  ansible.builtin.apt:
+    update_cache: yes
+  become: true
+
+- name: Perform apt upgrade
+  ansible.builtin.apt:
+    upgrade: dist
+  become: true
+
+- name: Install pakages
+  apt:
+    name: "{{ item }}"
+    state: present
+    update_cache: yes
+  loop:
+    - mc
+    - net-tools
+    - maven
+    - apache2
+    - git
+
+- name: Install OpenJDK 17
+  apt:
+    name: openjdk-17-jdk
+    state: present
+    update_cache: yes
