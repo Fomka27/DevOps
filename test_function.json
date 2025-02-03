@@ -1,0 +1,20 @@
+{
+    "Records": [
+      {
+        "eventName": "INSERT",
+        "dynamodb": {
+          "NewImage": {
+            "userId": {
+              "S": "id user"
+            },
+            "email": {
+              "S": "email@example.com"
+            },
+            "name": {
+              "S": "User name"
+            }
+          }
+        }
+      }
+    ]
+  }
